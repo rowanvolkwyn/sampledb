@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+table {
+  border-collapse: collapse;
+  width: 750px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+thead {
+  background-color: #2C2640;
   color: white;
+  text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
+th {
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+td {
+  padding: 5px 10px;
+}
+
+.card {
+  width: 300px;
+}
+
+.color {
+  width: 100px;
+}
+
+.set {
+  width: 100px;
+}
+
+.card-row {
+  width: 100%;
+}
+
+.even-row {
+  background-color: #f2f2f2; /* Background color for even rows */
+}
+
+.odd-row {
+  background-color: #ffffff; /* Background color for odd rows */
+}
+
+.content {
+  margin: 0px 50px;
 }
